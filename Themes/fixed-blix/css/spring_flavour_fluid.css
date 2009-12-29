@@ -1,0 +1,13 @@
+#container {
+  background-color:white;
+}
+#header {
+  background-position:right;
+  background-repeat:no-repeat;
+}
+#content {
+  background:white url(../images/spring_flavour/container_bg.gif) top right repeat-y;
+}
+.doublecol #footer-hack {
+  background:white url(../images/spring_flavour/footer_bg.gif) top right no-repeat;
+}

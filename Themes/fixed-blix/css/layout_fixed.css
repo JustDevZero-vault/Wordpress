@@ -1,0 +1,32 @@
+@import "layout.css";
+
+body {
+  padding:15px 0;
+  font-size:75%;
+  line-height:1.6em;
+}
+#container {
+  width:690px;
+  padding:30px 30px 0 30px;
+}
+#content {
+  float:left;
+  width:455px;
+}
+.singlecol #content {
+  float:none;
+  width:550px;
+}
+.entry {
+  margin:0 0 40px 0;
+}
+.avatar {
+  width:23px;
+  height:23px;
+}
+#subcontent {
+  float:right;
+}
+#footer {
+  padding:40px 0 15px 0;
+}

@@ -1,0 +1,19 @@
+/*
+Theme Name: Fixed Blix-HTML5
+Theme URI: http://lettersandscience.net/Blix/
+Description: Fixed or fluid width. Language localization support. View the <a href="http://lettersandscience.net/Blix/showcase">Blix Gallery</a> at the <a href="http://lettersandscience.net/Blix/">demo</a> site. <a href="http://lettersandscience.net/wp-content/themes/Blix/readme.html">Read me</a>. Original theme by <a href="http://www.kingcosmonaut.de">Sebastian Schmieg</a>. Adapted by <a href="http://lettersandscience.net">dancer</a>, validated and modified for using HTML5/CSS3 by <a href="http://geeklyplanet.net">Mephiston</a> .
+Version: 2009.12.29
+Author: dancer
+Author URI: http://lettersandscience.net/Blix/
+Tags: two-columns, fixed-width, flexible-width, right-sidebar, white
+*/
+
+@import "css/layout.css";
+@import "css/layout_fixed.css";
+@import "css/spring_flavour.css";
+@import "css/spring_flavour_fixed.css";
+
+/* ignore */
+.alignleft {}
+.alignright {}
+.aligncenter {}
