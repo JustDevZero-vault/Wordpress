@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iBlog2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-29 21:53-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Andrew Powers <andrew@pagelines.com>\n"
+"Language-Team: PageLines <hello@pagelines.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Error"
+msgstr ""
+
+#: 404.php:6
+#: index.php:36
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:9
+msgid "Sorry, the page that you are looking for does not exist."
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:56
+msgid "You must be"
+msgstr ""
+
+#: comments.php:56
+msgid "logged in"
+msgstr ""
+
+#: comments.php:56
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:62
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Name"
+msgstr ""
+
+#: comments.php:69
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: comments.php:72
+msgid "Website"
+msgstr ""
+
+#: comments.php:76
+msgid "You can use these tags:"
+msgstr ""
+
+#: functions.php:25
+#: sidebar.php:60
+msgid "Meta"
+msgstr ""
+
+#: functions.php:31
+#: sidebar.php:67
+msgid "Entries (RSS)"
+msgstr ""
+
+#: functions.php:32
+#: sidebar.php:68
+msgid "Comments (RSS)"
+msgstr ""
+
+#: functions.php:33
+#: sidebar.php:69
+msgid "Powered by WordPress"
+msgstr ""
+
+#: functions.php:43
+#: sidebar.php:49
+msgid "Links"
+msgstr ""
+
+#: index.php:14
+#: single.php:13
+msgid "By"
+msgstr ""
+
+#: index.php:37
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:31
+msgid "Please try another search."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: searchform.php:3
+msgid "Go"
+msgstr ""
+
+#: sidebar.php:15
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:26
+msgid "Tag Cloud"
+msgstr ""
+
+#: sidebar.php:38
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:70
+msgid "iBlog2 WordPress Theme"
+msgstr ""
+
+#: single.php:15
+msgid "Add comments"
+msgstr ""
+
+#: single.php:30
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+

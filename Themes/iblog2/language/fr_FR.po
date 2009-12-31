@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iBlog2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-09 18:51+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Myriam Faulkner <web@fairweb.fr>\n"
+"Language-Team: PageLines <hello@pagelines.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-Basepath: E:\\wamp\\www\\wordpress-test\\wp-content\\themes\\iblog2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Error"
+msgstr "Erreur"
+
+#: 404.php:6
+#: index.php:36
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: 404.php:9
+msgid "Sorry, the page that you are looking for does not exist."
+msgstr "Désolé, la page que vous cherchez est introuvable"
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Cet article est protégé par un mot de passe. Entrez le mot de passe pour voir les commentaires."
+
+#: comments.php:39
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:56
+msgid "You must be"
+msgstr "Vous devez être"
+
+#: comments.php:56
+msgid "logged in"
+msgstr "identifié"
+
+#: comments.php:56
+msgid "to post a comment."
+msgstr "pour poster un commentaire."
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr "Identifié en tant que"
+
+#: comments.php:62
+msgid "Log out of this account"
+msgstr "Se déconnecter de ce compte"
+
+#: comments.php:62
+msgid "Log out &raquo;"
+msgstr "Se déconnecter &raquo;"
+
+#: comments.php:66
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:69
+msgid "Mail (will not be published)"
+msgstr "Email (ne sera pas publié)"
+
+#: comments.php:72
+msgid "Website"
+msgstr "Site web"
+
+#: comments.php:76
+msgid "You can use these tags:"
+msgstr "Vous pouvez utiliser ces tags"
+
+#: comments.php:80
+msgid "Submit Comment"
+msgstr "Envoyer le commentaire"
+
+#: footer.php:4
+#: header.php:63
+msgid "Home"
+msgstr "Accueil"
+
+#: functions.php:25
+#: sidebar.php:60
+msgid "Meta"
+msgstr "Méta"
+
+#: functions.php:31
+#: sidebar.php:67
+msgid "Entries (RSS)"
+msgstr "Articles (RSS)"
+
+#: functions.php:32
+#: sidebar.php:68
+msgid "Comments (RSS)"
+msgstr "Commentaires (RSS)"
+
+#: functions.php:33
+#: sidebar.php:69
+msgid "Powered by WordPress"
+msgstr "Propulsé par WordPress"
+
+#: functions.php:43
+#: sidebar.php:49
+msgid "Links"
+msgstr "Liens"
+
+#: index.php:12
+msgid "Permanent Link to"
+msgstr "Permalien vers"
+
+#: index.php:14
+#: single.php:13
+msgid "By"
+msgstr "Par"
+
+#: index.php:37
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Désolé, ce que vous cherchez ne se trouve pas ici."
+
+#: search.php:30
+msgid "Nothing Found"
+msgstr "Aucune infromation n'a été trouvée"
+
+#: search.php:31
+msgid "Please try another search."
+msgstr "Veuillez effectuer une autre recherche."
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Rechercher"
+
+#: searchform.php:3
+msgid "Go"
+msgstr "OK"
+
+#: sidebar.php:15
+msgid "Categories"
+msgstr "Catégories"
+
+#: sidebar.php:26
+msgid "Tag Cloud"
+msgstr "Nuage de tags"
+
+#: sidebar.php:38
+msgid "Archives"
+msgstr "Archives"
+
+#: sidebar.php:70
+msgid "iBlog2 WordPress Theme"
+msgstr "Thème Wordpress iBlog2"
+
+#: single.php:15
+msgid "Add comments"
+msgstr "Ajouter des commentaires"
+
+#: single.php:30
+msgid "Sorry, no posts matched your criteria."
+msgstr "Désolé, aucun article ne correspond à votre critère."
+
