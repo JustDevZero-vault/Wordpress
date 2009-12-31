@@ -25,7 +25,7 @@
 	<div id="tags" class="dbx-box">
 	  <h3 class="dbx-handle"><?php _e('Tag Cloud', TDOMAIN); ?></h3>
 	  <div class="dbx-content">
-
+	    
 		<?php wp_tag_cloud('smallest=8&largest=17&number=30'); ?>
 
 	  </div>
@@ -68,6 +68,7 @@
 	        <li class="rss"><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments (RSS)', TDOMAIN);?></a></li>
 			<li class="wordpress"><a href="http://www.wordpress.org" title="<?php _e('Powered by WordPress', TDOMAIN);?>">WordPress</a></li>
 			<li class="pagelines"><a href="http://www.pagelines.com" title="PageLines"><?php _e('iBlog2 WordPress Theme', TDOMAIN);?></a></li>
+			<li class="validator"><a href="http://validator.w3.org/check/referer" title="Valid XHTML"><?php _e('Valid XHTML', TDOMAIN);?></a></li>
           </ul>
         </div>
       </div>

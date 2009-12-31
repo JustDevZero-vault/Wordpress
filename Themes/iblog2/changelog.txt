@@ -1,0 +1,39 @@
+2009-12-31  Mephiston  <meph.snake@gmail.com>
+
+	* header.php:56: <h1 class="blogtitle"><a href="<?php echo get_settings('home'); ?>"><div class="sheen"></div><?php bloginfo('name'); ?></a></h1>
+	* new header.php: 56 <h1 class="blogtitle"><a href="<?php echo get_settings('home'); ?>"></div><?php bloginfo('name'); ?></a></h1>
+
+There was no need for the <div class="sheen"></div> with nothing inside, so I deleted.
+
+	* header.php:63: <li class="page_item "><a class="home" href="<?php echo get_settings('home'); ?>/" title="<?php _e('Home', TDOMAIN);?>"><img width="18" height="18" class="homeimage" src="<?php bloginfo('stylesheet_directory'); ?>/images/home-icon-trans.png"/></a></li>
+
+	* new header.php:63: <li class="page_item "><a class="home" href="<?php echo get_settings('home'); ?>/" title="<?php _e('Home', TDOMAIN);?>"><img width="18" height="18" class="homeimage" alt="home" src="<?php bloginfo('stylesheet_directory'); ?>/images/home-icon-trans.png"/></a></li>
+
+Change added alt atribute to the image "home-icon-tans.png"
+
+	* sidebar.php:25 	<div id="categories" class="dbx-box">
+	* new sidebar.php:25 	<div id="tags" class="dbx-box">
+
+The id "categories" already exists, and this div wasn't for categories, but for tags, so changed the id to "tags"
+
+
+	* sidebar.php:28-30:
+	  <div class="dbx-content">
+	    <ul>
+		<?php wp_tag_cloud('smallest=8&largest=17&number=30'); ?>
+	    <ul>
+	  </div>
+
+	* new sidebar.php:28-30:
+
+	  <div class="dbx-content">
+	    
+		<?php wp_tag_cloud('smallest=8&largest=17&number=30'); ?>
+
+	  </div>
+
+There was no need for <ul></ul> here, so I deleted.
+
+	* Added a Valid XHTML link to sidebar.php:29 : <li class="validator"><a href="http://validator.w3.org/check/referer" title="Valid XHTML"><?php _e('Valid XHTML', TDOMAIN);?></a></li>
+
+

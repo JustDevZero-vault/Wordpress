@@ -46,7 +46,9 @@ if ( function_exists('register_sidebar_widget') )
 	<div id="links" class="dbx-box">
 	  <h3 class="dbx-handle"><?php _e('Links', TDOMAIN); ?></h3>
 	  <div class="dbx-content">
+	    <ul>
 	      <?php get_links('-1', '<li>', '</li>', '<br />', FALSE, 'id', FALSE, FALSE, -1, FALSE); ?>
+	    </ul>
 	  </div>
 	</div>
 	<!--sidebox end -->
