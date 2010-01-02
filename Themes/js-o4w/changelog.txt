@@ -1,0 +1,52 @@
+ver. 1.1.0 (09.12.9)
+- add threaded-comments function.
+- some style fixed.
+
+ver. 1.0.11 (09.12.7)
+- fixed language support zh_TW. Thanks to Carrielis - http://blogs.carrielis.com/
+- add language support ru_RU. Thanks to Petch.
+
+ver. 1.0.10 (09.12.5)
+- add language support zh_TW. 
+- style bug fixed.
+- fixed the 404 page.
+
+ver. 1.0.9 (09.11.23)
+- add language support nl_NL. Special thanks to Dirk De BAcker.
+- add emotions support.
+
+ver. 1.0.8 (09.11.11)
+- fixed the sidebar problem in IE6.
+
+ver. 1.0.7 (09.11.07)
+- anguage localization supported, zh_CN, en_US, fr_FR.
+- style fixed.
+
+ver. 1.0.6 (09.10.04)
+- changed banner height to 200px.
+- changed navigation bg.
+
+ver. 1.0.5 (09.08.20)
+- no more use the pic for display the title.
+- delete the logo.psd and the readme.txt files in the directory.
+
+ver. 1.0.4 (09.08.13)
+- fixed navigation current page style.
+- add the seperate trackbacks to the comment template.
+
+ver. 1.0.3 (09.08.12)
+- fixed sidebar h2(a)/div float style.
+
+ver. 1.0.2 (09.08.12)
+- fixed the sidebar muti-level list style.
+
+ver. 1.0.1 (09.08.11)
+- remove the .picasa.ini file from your images directory.
+- remove theme-info.txt.
+- remove one of the links in the footer.
+- fixed the calendar widget display.
+- fixed block quotes display.
+- fixed HTML (not reflected) on archive pages or on search results.
+
+ver. 1.0.0 (09.08.10)
+- First released.

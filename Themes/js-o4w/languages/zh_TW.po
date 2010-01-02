@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Js O4w international ver-1.0.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-07 17:48+0100\n"
+"PO-Revision-Date: 2009-12-06 20:13+0800\n"
+"Last-Translator: Carrie <carrieli.blog@gmail.com>\n"
+"Language-Team: Jinwen Say <http://www.saywp.com/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: archive.php:15
+#, php-format
+msgid "Archive for the &#8216;%1$s&#8217; Category"
+msgstr "&#8216;%1$s&#8217; 分類的彙整"
+
+#: archive.php:18
+#, php-format
+msgid "Posts Tagged &#8216;%1$s&#8217;"
+msgstr "文章標籤 &#8216;%1$s&#8217; 的彙整"
+
+#: archive.php:21
+#: archive.php:24
+#: archive.php:27
+#, php-format
+msgid "Archive for %1$s"
+msgstr "%1$s 的彙整"
+
+#: archive.php:21
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: archive.php:24
+msgid "F, Y"
+msgstr "Y年n月"
+
+#: archive.php:27
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:30
+msgid "Author Archive"
+msgstr "作者文章彙整"
+
+#: archive.php:33
+msgid "Blog Archives"
+msgstr "部落格文章彙整"
+
+#: archive.php:46
+#: index.php:14
+#: search.php:14
+#: single.php:13
+msgid "Date: "
+msgstr "日期："
+
+#: archive.php:46
+#: index.php:14
+#: search.php:14
+#: single.php:13
+msgid "Category: "
+msgstr "分類："
+
+#: archive.php:46
+#: index.php:14
+#: search.php:14
+msgid "Response: "
+msgstr "評論數："
+
+#: archive.php:48
+#: index.php:16
+#: search.php:16
+msgid "Read the rest of this entry &raquo;"
+msgstr "繼續閱讀全文 &raquo;"
+
+#: archive.php:59
+#: index.php:27
+#: search.php:27
+msgid "Older posts"
+msgstr "較舊文章"
+
+#: archive.php:60
+#: index.php:28
+#: search.php:28
+msgid "Newer posts"
+msgstr "較新文章"
+
+#: comments.php:31
+msgid "Responses to"
+msgstr "則迴響於"
+
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "本文章的評論暫時被關閉。"
+
+#: comments.php:84
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "你必須 <a href=\"%s\">登入</a> 才能發表評論。"
+
+#: comments.php:91
+msgid "Logged in as"
+msgstr "目前登入為"
+
+#: comments.php:91
+msgid "Logout"
+msgstr "登出"
+
+#: comments.php:96
+msgid "Name"
+msgstr "暱稱 (必填)"
+
+#: comments.php:99
+msgid "E-Mail (will not be published)"
+msgstr "電郵（不會公佈）"
+
+#: comments.php:102
+msgid "Website"
+msgstr "您的網站或者部落格網址"
+
+#: comments.php:106
+#, php-format
+msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+msgstr "<strong>XHTML:</strong> 你可以使用這些標籤：<code>%s</code>"
+
+#: comments.php:110
+msgid "Submit"
+msgstr "送出"
+
+#: footer.php:7
+msgid "Back to top"
+msgstr "回到頁首"
+
+#: footer.php:10
+msgid "Copyright"
+msgstr "版權所有"
+
+#: footer.php:10
+msgid "Powered by"
+msgstr "部落格程式 "
+
+#: footer.php:11
+msgid "Theme "
+msgstr "主題"
+
+#: footer.php:11
+msgid " designed by "
+msgstr "由"
+
+#: footer.php:11
+msgid ", valid"
+msgstr "設計並通過驗證"
+
+#: footer.php:11
+msgid "&amp;"
+msgstr "和"
+
+#: header.php:28
+msgid "Type your word here..."
+msgstr "請在此輸入搜尋關鍵字"
+
+#: header.php:38
+#: header.php:40
+msgid "Home"
+msgstr "首頁"
+
+#: page.php:11
+msgid "Read more"
+msgstr "繼續閱讀……"
+
+#: search.php:6
+msgid "Search results for "
+msgstr "搜尋關鍵字為"
+
+#: search.php:6
+#, php-format
+msgid "keyword(s): &#8216;%1$s&#8217;"
+msgstr "關鍵字：&#8216;%1$s&#8217;  的結果顯示"
+
+#: sidebar-s.php:7
+msgid "Related Posts"
+msgstr "相關文章"
+
+#: sidebar-s.php:35
+msgid "Recent Posts"
+msgstr "近期文章"
+
+#: sidebar.php:5
+msgid "Most Popular"
+msgstr "熱門文章"
+
+#: sidebar.php:22
+msgid "Recent Comments"
+msgstr "最新評論"
+
+#: single.php:13
+msgid "Tags: "
+msgstr "標籤："
+
+#~ msgid "Views: "
+#~ msgstr "浏览次数："
+#~ msgid "Sorry, you must be logged in to post a comment."
+#~ msgstr "请登录后发表评论。"
+#~ msgid "Error: please fill the required fields (name, email)."
+#~ msgstr "出错啦。请填写必要信息（名字和邮址）。"
+#~ msgid "Error: please enter a valid email address."
+#~ msgstr "出错啦。请填写一个合法的邮件地址。"
+#~ msgid "Error: please type a comment."
+#~ msgstr "出错啦。不能发表空白评论的。"
+#~ msgid "You are posting comments too quickly.  Slow down."
+#~ msgstr "慢慢来，不要那么急嘛。"
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view comments."
+#~ msgstr "这篇文章已被加密，请输入密码后查看。"
+#~ msgid "Categories Archieves"
+#~ msgstr "按分类存档"
+#~ msgid "Monthly Archieves"
+#~ msgstr "按分类存档"
+#~ msgid "My blogroll"
+#~ msgstr "友情链接"
+#~ msgid "My Friends"
+#~ msgstr "我的朋友"
+#~ msgid "Designer"
+#~ msgstr "设计相关"
+#~ msgid "Waiting a little bit..."
+#~ msgstr "读取中，稍等……"
+#~ msgid "Close it"
+#~ msgstr "关闭这里"
+#~ msgid "contact"
+#~ msgstr "与我联系"
+#~ msgid "archives"
+#~ msgstr "存档"
+#~ msgid "links"
+#~ msgstr "友情链接"
+#~ msgid "Sitemap"
+#~ msgstr "网站地图"
+#~ msgid "Back"
+#~ msgstr "返回前页"
+#~ msgid "My Designs"
+#~ msgstr "免费主题下载"
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+#~ msgid "JQuery"
+#~ msgstr "JQuery技巧"
+#~ msgid "WP Theme"
+#~ msgstr "主题折腾心得"
+#~ msgid "WP Plugins"
+#~ msgstr "推荐插件介绍"
+#~ msgid "Paris"
+#~ msgstr "我爱巴黎"
+#~ msgid "Loading the posts..."
+#~ msgstr "正在读取……"
+#~ msgid "Advertisement"
+#~ msgstr "广告位出租"
+#~ msgid "Sponsors"
+#~ msgstr "合作伙伴"
+#~ msgid "Like this post? You can share it to "
+#~ msgstr "喜欢本文？不如把它分享到 "
+#~ msgid ", or save it to "
+#~ msgstr " 或者收藏到 "
+#~ msgid "You can also subscribe all my updates by "
+#~ msgstr "建议通过 "
+#~ msgid " but why not follow me "
+#~ msgstr "订阅本站更新。你还可以 follow me "
+#~ msgid "Thank you very much!"
+#~ msgstr "谢谢！"
+
