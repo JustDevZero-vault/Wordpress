@@ -1,0 +1,503 @@
+/*
+Theme Name: Geeky Iron
+Theme URI: http://geeklyplanet.net/
+Description: Geeky Iron 2 columns inspired on Acid Grey/ Valid HTML5 / CSS3 Template
+Author: Mephiston
+Author URI: http://geeklyplanet.net/
+Version: 1.0
+*/
+
+
+@font-face {
+  font-family: "Digital dream Skew Narrow";
+  src: url("../fonts/Digital_dream_Skew_Narrow.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "New Century Schoolbook";
+  src: url("../fonts/New_Century_Schoolbook_Bold-ital.ttf") format("truetype");
+  }
+
+
+
+a:hover{
+	width:0;
+	height:0;
+	outline:0;
+}
+.archive-dropdown{
+	text-align:right;
+	margin-left:20px;
+	font-family: "New Century Schoolbook";
+}
+
+
+
+body {
+	font-family:Arial;
+	font-size:12px;	
+	color:#777;		
+	background-color:#a7a7a7;
+	background-image:url("images/site-background.gif");
+	background-repeat:repeat-x;
+	margin:0;
+	line-height:20px;
+		font-family: "New Century Schoolbook";
+	
+}
+
+form {
+	padding:0;
+	margin:0;	
+}
+
+input, textarea {
+	background-color:#fff;
+	padding:5px;
+	border:1px solid #cdcdcd;	
+	margin:0;
+}
+
+ul {
+	padding:0;
+	margin:0;
+}
+
+li {
+	list-style-image:none;
+	list-style-type:none;	
+	margin:0;
+}
+
+h2 {
+	font-size:22px;
+	font-weight:normal;
+	color:#757575;
+	line-height:27px;
+	margin:0;
+}
+
+a:link, a:visited {
+	color:#757575;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#top-block {
+	width:878px;
+	height:92px;
+	background-image:url("images/top-block.png");
+	background-repeat:no-repeat;	
+	margin:auto;
+}
+
+div#site-title {
+	font-family: "New Century Schoolbook";
+	font-weight: bold;
+	float:left;
+	margin-left:120px;
+	margin-top:30px;
+	font-size:40px;
+}
+
+div#site-title a{
+	color:#fff;
+}
+
+div#site-title a:hover{
+	text-decoration: none;
+}
+
+#site-slogan {
+	float:left;
+	font-size:11px;	
+	margin-left:-135px;
+	margin-top:65px;
+	color:#fff;
+	text-align:center;
+}
+
+#search-box {
+	float:right;
+	width:230px;
+	margin-top:20px;
+	margin-right:20px;
+	line-height:92px;
+	text-align:right;
+	
+}
+
+#search-input {
+	width:151px;
+	height:19px;
+	background-image:url("images/search-background.gif");	
+	background-repeat:no-repeat;	
+	border:0;	
+	vertical-align:middle;
+}	
+
+#search-button {
+	width:41px;
+	height:29px;
+	background-image:url("images/find.png");	
+	background-repeat:no-repeat;	
+	border:0;
+	margin:0;
+	vertical-align:middle;	
+}
+
+
+#top-divider{
+	width:878px;
+	height:49px;
+	background-image:url("images/top-divider.png");
+	background-repeat:no-repeat;	
+	margin:auto;
+}
+
+#top-nav-container {
+	width:878px;
+	height:60px;
+	margin:auto;
+}
+
+#top-nav-background {
+	float:left;
+	width:686px;
+	height:40px;
+	background-image:url("images/top-nav-background.png");
+	background-repeat:no-repeat;	
+	padding:20px 0 0 15px;	
+}
+
+#top-nav-background a {
+	font-size:11px;
+	font-weight:bold;
+	color:#717171;
+	background-image:url("images/grey-arrows.gif");
+	background-repeat:no-repeat;	
+	padding:0 0 0 20px;
+	margin:0 20px 0 0;
+	vertical-align:middle;
+}
+
+#top-nav-background ul {
+	list-style-image:none;
+	list-style-type:none;	
+}
+
+#top-nav-background li {
+	display:inline;
+	list-style-type:none;
+}
+
+#date-background {
+	float:left;
+	width:177px;
+	height:60px;
+	font-size:11px;
+	color:#fff;
+	font-weight:bold;
+	background-image:url("images/date-background.png");
+	background-repeat:no-repeat;	
+	font-family: "Digital dream Skew Narrow";
+	text-align:center;
+	line-height:32px;
+}
+
+#main-area {
+	width:876px;
+	background-color:#fff;
+	background-image:url("images/main-gradient.gif");
+	background-repeat:repeat-x;		
+	padding:0 1px 0 1px;
+	margin:auto;
+}
+
+#sidebar {
+	float:right;
+	width:196px;
+	margin:0 10px 0 0;
+}
+
+.nav-header {
+	width:186px;
+	height:33px;
+	font-weight:bold;	
+	color:#fff;
+	background-image:url("images/nav-header.png");
+	background-repeat:no-repeat;	
+	text-align:right;
+	
+}
+
+.nav-header span.subtitle{
+	margin-right:10px;
+	font-family: "New Century Schoolbook";
+}
+
+.nav-content {
+	width:186px;
+	font-size:11px;
+	background-color:#f0f0f0;
+	list-style:none;
+	margin-left:15px;
+	font-family: "New Century Schoolbook";
+}
+
+.nav-content ul {
+	list-style:none;
+	padding:5px 10px 0 10px;
+}
+
+.nav-content li {
+	background-image: url("images/arrows.png");
+	background-repeat:no-repeat;
+	border-bottom:1px dotted #858585;
+	padding:2px 0 2px 0;
+	margin:0;
+}
+
+.nav-content a {
+	margin:0 0 0 15px;
+}
+
+.nav-footer {
+	width:186px;
+	height:20px;
+	background-image:url("images/nav-footer.gif");
+	background-repeat:no-repeat;		
+	margin:0 0 10px 15px;
+}
+
+#main-content {
+	float:right;
+	width:610px;
+	background-image:url("images/main-content-background.gif");
+	background-repeat:no-repeat;
+	padding:30px 20px 20px 30px;
+	margin:0 10px 0 0;
+}
+
+#data-header{
+	width:838px;
+	height:20px;
+	background-repeat:no-repeat;		
+	margin:auto;
+	clear:both;	
+}
+
+#footer-content {
+	width:798px;
+	font-size:11px;
+	background-color:#444444;
+	padding:0 20px 0 20px;
+	margin:auto;
+}
+
+#footer-links {
+	float:left;
+	width:256px;
+	margin:0 15px 0 0;
+}
+
+#footer-pages {
+	float:left;
+	width:256px;
+	margin:0 15px 0 0;
+}
+
+#footer-posts {
+	float:left;
+	width:256px;
+}
+
+.page_item a:focus{
+	outline:0;
+}
+
+ul a:focus{
+	outline:0;
+}
+
+.footer-headers {
+	font-size:18px;
+	color:#fff;
+}
+
+#footer-content ul {
+	list-style:none;
+	padding:5px 10px 0 10px;
+}
+
+#footer-content li {
+	background-image: url("images/arrows.png");
+	background-repeat:no-repeat;
+	border-bottom:1px dotted #858585;
+	padding:2px 0 2px 0;
+	margin:0;
+}
+
+#footer-content a {
+	color:#ccc;
+	margin:0 0 0 15px;
+}
+
+#data-footer {	
+	margin:auto;	
+	
+}
+
+#copyright {
+	width:878px;
+	height:50px;
+	font-size:11px;
+	color:#fff;
+	background-image:url("images/copyright.gif");
+	background-repeat:no-repeat;		
+	margin:10px auto 0 auto;
+	line-height:50px;
+}
+
+#copyright a{
+	color:#fff;
+}
+
+#sponsor-text {
+	float:left;
+	padding:0 0 0 20px;
+}
+
+#sponsor-text a {
+	color:#fff;
+}
+
+#copyright-text {
+	float:right;
+	padding:0 55px 0 0;
+}
+
+.post-wrap {
+	width:610px;
+}
+
+.post-content-wrap {
+	float:left;
+	width:516px;
+}
+
+.post-date {
+	float:left;
+	font-family: "Digital dream Skew Narrow";
+	width:74px;
+	height:66px;
+	background-image:url("images/post-date-background.png");
+	background-repeat:no-repeat;	
+	margin:0 0 0 -15px;
+	text-align:center;
+}
+
+.post-date span{
+	margin:0 0 0 -6px;
+}
+
+.post-title a {
+	font-size:22px;
+	color:#757575;
+	line-height:27px;
+}
+
+.date-month {
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;	
+}
+
+.date-day {
+	display:block;
+	font-size:25px;
+	font-weight:bold;
+	color:#fff;	
+}
+.date-year {
+	font-size:12px;
+	font-weight:bold;
+	color:#fff;	
+}
+
+
+.entry {
+	clear:both;
+	display:block;
+}
+
+.post-info {
+	float:left;
+	width:532px;
+	font-size:11px;
+	color:#b2b2b2;
+	background-color:#f4f4f4;
+	border:1px solid #dedede;
+	padding:5px;
+	margin:15px 0 25px 0;
+}
+
+.post-info a {
+	color:#b4b4b4;
+}
+
+.post-info-icon {
+	vertical-align:middle;
+	margin:0 15px 0 15px;
+}
+
+.pagination a {
+	display:block;
+	float:left;
+	width:101px;
+	height:31px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	background-image:url("images/button.gif");
+	background-repeat:no-repeat;	
+	margin:0 2px 0 0;
+	text-align:center;
+	line-height:31px;
+}
+
+.comment-meta-data {
+	font-size:11px;
+	color:#006538;	
+}
+
+.comment-meta-data a {
+	color:#757575;
+}
+
+.comment-1 {
+	background-color:#f0f0f0;
+	padding:10px 15px 10px 15px;	
+}
+
+.comment-2 {
+	background-color:#fff;
+	padding:10px 15px 10px 15px;	
+}
+
+#comment-submit {
+	width:101px;
+	height:31px;
+	font-size:11px;
+	font-weight:bold;
+	color:#fff;
+	background-image:url("images/button.gif");
+	background-repeat:no-repeat;	
+	border:0;
+	padding:0;
+	text-align:center;
+	line-height:31px;	
+}
