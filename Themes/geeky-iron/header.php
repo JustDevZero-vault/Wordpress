@@ -2,6 +2,8 @@
 <html>
 <head>
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
+<link rel="icon" type="image/svg+xml" href="<?php bloginfo('url'); ?>/wp-includes/images/favicon.svg"/>
+<link rel="alternate icon" type="image/png" href="<?php bloginfo('url'); ?>/wp-includes/images/favicon.png"/>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />

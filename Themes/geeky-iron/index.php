@@ -18,28 +18,28 @@
 				<div class="post-title">
 				<a href="<?php the_permalink(); ?>" rel="bookmark">
 				<?php the_title(); ?></a>
-				<?php edit_post_link('<span class="col-text">Editar</span>'); ?>
+				<?php edit_post_link('<span class="col-text">'.__('Edit').'</span>'); ?>
 				</div>
-				<?php the_content(__('(<span class="col-text">More...</span>)')); ?>
+				<?php the_content(__('(<span class="col-text">'.__('More...').'</span>)')); ?>
 				<div class="post-info">
-				<img src="<?php bloginfo('template_directory'); ?>/images/user-icon.gif" alt="" class="post-info-icon" /><?php the_author(); ?><img src="<?php bloginfo('template_directory'); ?>/images/category-icon.gif" alt="" class="post-info-icon" /><b><?php the_category(', '); ?></b><img src="<?php bloginfo('template_directory'); ?>/images/comments.gif" alt="" class="post-info-icon" /><b><?php comments_popup_link('No Comments', '1 Comment &raquo;', '% Comments'); ?></b>
+				<img src="<?php bloginfo('template_directory'); ?>/images/user-icon.gif" alt="" class="post-info-icon" /><?php the_author(); ?><img src="<?php bloginfo('template_directory'); ?>/images/category-icon.gif" alt="" class="post-info-icon" /><b><?php the_category(', '); ?></b><img src="<?php bloginfo('template_directory'); ?>/images/comments.gif" alt="" class="post-info-icon" /><b><?php comments_popup_link(__('Comments (0)'), __('Comments (1)'), __('Comments (%)')); ?></b>
 				<br/>
-				<?php the_tags("<img src='./wp-content/themes/geeky-iron/images/tag.png' alt='Etiquetas:' />", ", ", ""); ?>
+				<?php the_tags('<img src="./wp-content/themes/geeky-iron/images/tag.png" alt="'.__('Tags').'" />', ', ', ''); ?>
 				
 				</div>
 			</div>		
 		</div>
 		<?php endwhile; else: ?>
 
-		<h2>Sorry...</h2>
-		<?php _e('No posts matched your criteria.'); ?>
+		
+		<?php _e('Sorry, no posts matched your criteria.'); ?>
 
 		<?php endif; ?>
 		<div class="pagination">
-		<?php next_posts_link('Next'); ?>
+		<?php previous_posts_link(__('&laquo; Previous Page')) ?>
 		</div>
 		<div class="pagination">
-		<?php previous_posts_link('Previous'); ?>
+		<?php next_posts_link(__('Next Page &raquo;')) ?>
 		</div>
 	</div>
 <?php get_footer();?>

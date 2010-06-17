@@ -6,18 +6,17 @@
 			<div class="post-title">
 			<a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a>
 			</div>
-			<?php the_content(__('(<span class="col-text"><u>More...</u></span>)')); ?>
-			<?php edit_post_link('<span class="col-text"><u>Edit</u></span>'); ?>
+			<?php the_content(__('(<span class="col-text"><u>'.__('More...').'</u></span>)')); ?>
+			<?php edit_post_link('<span class="col-text"><u>'.__('Edit').'</u></span>'); ?>
 		</div>	
 		<?php endwhile; else: ?>
-		<h2>Sorry...</h2>
-		<?php _e('No posts matched your criteria.'); ?>
+		<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 		<?php endif; ?>
 		<div class="pagination">
-		<?php next_posts_link('Next'); ?>
+		<?php previous_posts_link(__('&laquo; Previous Page')) ?>
 		</div>
 		<div class="pagination">
-		<?php previous_posts_link('Previous'); ?>
+		<?php next_posts_link(__('Next Page &raquo;')) ?>
 		</div>
 	</div>
 <?php get_footer(); ?>
